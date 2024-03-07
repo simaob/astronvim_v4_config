@@ -1,4 +1,4 @@
- --if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+-- if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
 -- AstroCommunity: import any community modules here
 -- We import this file in `lazy_setup.lua` before the `plugins/` folder.
@@ -9,5 +9,11 @@ return {
   -- TODO: Remove branch v4 on release
   { "AstroNvim/astrocommunity", branch = "v4" },
   { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.ruby" },
+  { import = "astrocommunity.pack.tailwindcss" },
+  { import = "astrocommunity.completion.copilot-lua" },
+  { import = "astrocommunity.git.blame-nvim" },
+  { import = "astrocommunity.workflow.bad-practices-nvim" },
   -- import/override with your plugins folder
 }
