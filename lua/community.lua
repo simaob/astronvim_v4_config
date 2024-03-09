@@ -12,8 +12,8 @@ return {
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.ruby" },
   { import = "astrocommunity.pack.tailwindcss" },
-  { import = "astrocommunity.completion.copilot-lua" },
-  { import = "astrocommunity.git.blame-nvim" },
+  { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.git.git-blame-nvim" },
   { import = "astrocommunity.workflow.bad-practices-nvim" },
   -- import/override with your plugins folder
 }
