@@ -15,5 +15,6 @@ return {
   { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.git.git-blame-nvim" },
   { import = "astrocommunity.workflow.bad-practices-nvim" },
+  { import = "astrocommunity.colorscheme.gruvbox-baby" },
   -- import/override with your plugins folder
 }

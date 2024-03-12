@@ -33,6 +33,9 @@ return {
         signcolumn = "auto", -- sets vim.opt.signcolumn to auto
         wrap = false, -- sets vim.opt.wrap
         background = "dark",
+        showbreak = "<\\",
+        visualbell = true,
+        colorcolumn = "99",
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
@@ -74,7 +77,7 @@ return {
       },
       t = {
         -- setting a mapping to false will disable it
-        -- ["<esc>"] = false,
+        ["<ESC>"] = "<C-\\><C-n>", -- map escape to exit terminal modes
       },
     },
   },
