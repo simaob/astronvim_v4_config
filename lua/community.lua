@@ -16,5 +16,6 @@ return {
   { import = "astrocommunity.git.git-blame-nvim" },
   { import = "astrocommunity.workflow.bad-practices-nvim" },
   { import = "astrocommunity.colorscheme.gruvbox-baby" },
+  { import = "astrocommunity.utility.telescope-live-grep-args-nvim" },
   -- import/override with your plugins folder
 }
